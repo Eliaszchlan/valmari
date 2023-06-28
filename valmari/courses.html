@@ -1,0 +1,1427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Walmari</title>
+</head>
+<body>
+    
+   <header class="header">
+    <div class="container header_container flex">
+         <a href="index.html" class="header_logo"><img src="img/logo.svg" alt=""></a>
+          <ul class="header_list flex">
+            <li class="header_item item_phone"><a href="tel:0800508622" class="header_phone">0 (800) 508-622</a></li>
+            <li class="header_item"><a href="#" class="header_social social_facebook"><img src="img/facebook.svg" alt=""></a></li>
+            <li class="header_item"><a href="#" class="header_social social_insta"><img src="img/insta.svg" alt=""></a></li>
+            <li class="header_item select_item flex"><a href="#" class="language_select_flag"><img src="img/russian_flag.svg" alt=""><select class="language_select" name="" id=""></select></a></li>
+        </ul>
+        
+    </div>
+   </header>
+
+   <nav class="nav courses_nav">
+    <div class="container nav_container">
+        <ul class="nav_list courses_navi flex">
+            <li class="nav_item"><a href="#" class="nav_link active">Курсы обучения</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Вебинары</a></li>
+            <li class="nav_item"><a href="video.html" class="nav_link">Видео-уроки</a></li>
+            <li class="nav_item"><a href="blog.html" class="nav_link">Блог</a></li>
+            <li class="nav_item"><a href="about.html" class="nav_link">О нас</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Прайс</a></li>
+            <li class="nav_item"><a href="shedule.html" class="nav_link">Рассписание</a></li>
+            <li class="nav_item"><a href="offers.html" class="nav_link">Акции</a></li>
+            <li class="nav_item"><a href="articles.html" class="nav_link">Статьи</a></li>
+        </ul>
+    </div>
+   </nav>
+
+  <main class="main">
+
+     <div class="courses">
+        <div class="container">
+            <div class="courses_content flex">
+                <h1 class="courses_title">Курсы обучения</h1>
+                <p class="courses_descr">- курсы с возможностью ранней регистрации</p>
+                 <ul class="courses_nav flex lsn">
+                    <li class="courses_nav_item course_destination flex"><a href="courses.html">Все направления</a></li>
+                    <li class="courses_nav_item course_cosmitology flex">
+                        <div class="btn-group flex">
+                            <button type="button" class="btn dropdown_btn" data-toggle="dropdown" aria-expanded="false">
+                                Курсы по косметологии
+                            </button>
+                            <div class="dropdown-menu">
+                              <button class="dropdown-item" type="button">Эстетическая косметология</button>
+                              <button class="dropdown-item" type="button"><a href="botulinum.html">Иньекционная косметология</a></button>
+                              <button class="dropdown-item" type="button">Лазерная косметология</button>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="courses_nav_item course_online">Онлайн обучение</li>
+                    <li class="courses_nav_item course_m_class">Мастер-классы</li>
+                 </ul>
+                
+                   <div class="courses_pag_container flex">
+
+                <ul class="courses_pag first_page flex">
+
+                                <li class="courses_card dropper_card flex">
+                                <p class="courses_small_title">Курс для медиков</p>
+                                <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                                <div class="courses_format">Оффлайн</div>
+                                <time class="courses_time">1 - 4 мая</time>
+                                <p class="courses_descr_info">
+                                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                                </p>
+                                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                    <button class="btn courses_registration" id="brg-red">Зарегистрироваться</button>
+                                    <button class="btn courses_details">Подробнее</button>
+                            </li>
+                        <li class="courses_card flex dropper_card">
+                                <p class="courses_small_title">Курс для медиков</p>
+                            <a href="botulinum.html"><h4 class="courses_great_title mezotherapy">  Мезотерапия<br> и биоревителизация</h4></a>
+                            <div class="courses_format mezotherapy_format">Онлайн</div>
+                            <time class="courses_time">15 - 20 мая</time>
+                            <p class="courses_descr_info mezotherapy_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details mezotherapy_details" id="brg-yellow">Подробнее</button>
+                        </li> 
+                        <li class="courses_card card_biogel flex">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                            <div class="courses_format biogel_format">Мастер-класс</div>
+                            <time class="courses_time">2 - 5 августа</time>
+                            <p class="courses_descr_info biogel_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details biogel_details">Подробнее</button>
+                        </li>
+                        <li class="courses_card card_massage_video">
+                           <div class="courses_video flex">
+                            <video controls muted class="video-container flex">
+                                <source src="./video.mp4" type="video/mp4" />
+                                <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                              </video>
+                              <!-- video switch -->
+                                <button class="switch-btn courses_video_btn flex">
+                                    <img class="video_click" src="img/courses_video.svg" alt="">
+                                     <p class="courses_video_span">Смотреть трейлер</p>
+                                </button>
+                           </div>
+                           <div>
+                            <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                            <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                            <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                            <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                           </div>
+                           
+                        </li> 
+                        <li class="courses_card flex dropper_card">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                            <div class="courses_format">Оффлайн</div>
+                            <time class="courses_time">1 - 4 мая</time>
+                            <p class="courses_descr_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                <button class="btn courses_registration">Зарегистрироваться</button>
+                                <button class="btn courses_details">Подробнее</button>
+                        </li>
+                        <li class="courses_card card_massage_video">
+                            <div class="courses_video flex">
+                             <video controls muted class="video-container flex">
+                                 <source src="./video.mp4" type="video/mp4" />
+                                 <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                               </video>
+                               <!-- video switch -->
+                                 <button class="switch-btn courses_video_btn flex">
+                                     <img class="video_click" src="img/courses_video.svg" alt="">
+                                      <p class="courses_video_span">Смотреть трейлер</p>
+                                 </button>
+                            </div>
+                            <div>
+                             <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                             <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                             <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                             <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                            </div>
+                            
+                         </li> 
+                         <li class="courses_card card_biogel flex">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                            <div class="courses_format biogel_format">Мастер-класс</div>
+                            <time class="courses_time">2 - 5 августа</time>
+                            <p class="courses_descr_info biogel_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details biogel_details">Подробнее</button>
+                        </li>
+                        <li class="courses_card card_massage_video">
+                            <div class="courses_video flex">
+                             <video controls muted class="video-container flex">
+                                 <source src="./video.mp4" type="video/mp4" />
+                                 <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                               </video>
+                               <!-- video switch -->
+                                 <button class="switch-btn courses_video_btn flex">
+                                     <img class="video_click" src="img/courses_video.svg" alt="">
+                                      <p class="courses_video_span">Смотреть трейлер</p>
+                                 </button>
+                            </div>
+                            <div>
+                             <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                             <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                             <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                             <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                            </div>
+                            
+                         </li> 
+                        <li class="courses_card flex dropper_card">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                            <div class="courses_format mezotherapy_format">Онлайн</div>
+                            <time class="courses_time">15 - 20 мая</time>
+                            <p class="courses_descr_info mezotherapy_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                        </li> 
+                        <li class="courses_card flex dropper_card">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                            <div class="courses_format mezotherapy_format">Онлайн</div>
+                            <time class="courses_time">15 - 20 мая</time>
+                            <p class="courses_descr_info mezotherapy_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                        </li> 
+                        <li class="courses_card flex dropper_card">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                            <div class="courses_format">Оффлайн</div>
+                            <time class="courses_time">1 - 4 мая</time>
+                            <p class="courses_descr_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                <button class="btn courses_registration">Зарегистрироваться</button>
+                                <button class="btn courses_details">Подробнее</button>
+                        </li>
+                        <li class="courses_card card_massage_video">
+                            <div class="courses_video flex">
+                             <video controls muted class="video-container flex">
+                                 <source src="./video.mp4" type="video/mp4" />
+                                 <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                               </video>
+                               <!-- video switch -->
+                                 <button class="switch-btn courses_video_btn flex">
+                                     <img class="video_click" src="img/courses_video.svg" alt="">
+                                      <p class="courses_video_span">Смотреть трейлер</p>
+                                 </button>
+                            </div>
+                            <div>
+                             <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                             <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                             <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                             <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                            </div>
+                            
+                         </li>  
+                        
+                
+                     </ul>
+                    <ul class="courses_pag second_page flex">
+
+                            <li class="courses_card dropper_card flex">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                            <div class="courses_format">Оффлайн</div>
+                            <time class="courses_time">1 - 4 мая</time>
+                            <p class="courses_descr_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                <button class="btn courses_registration">Зарегистрироваться</button>
+                                <button class="btn courses_details">Подробнее</button>
+                        </li>
+                    <li class="courses_card flex dropper_card">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                        <div class="courses_format mezotherapy_format">Онлайн</div>
+                        <time class="courses_time">15 - 20 мая</time>
+                        <p class="courses_descr_info mezotherapy_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                    </li> 
+                    <li class="courses_card card_biogel flex">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                        <div class="courses_format biogel_format">Мастер-класс</div>
+                        <time class="courses_time">2 - 5 августа</time>
+                        <p class="courses_descr_info biogel_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details biogel_details">Подробнее</button>
+                    </li>
+                    <li class="courses_card card_massage_video">
+                       <div class="courses_video flex">
+                        <video controls muted class="video-container flex">
+                            <source src="./video.mp4" type="video/mp4" />
+                            <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                          </video>
+                          <!-- video switch -->
+                            <button class="switch-btn courses_video_btn flex">
+                                <img class="video_click" src="img/courses_video.svg" alt="">
+                                 <p class="courses_video_span">Смотреть трейлер</p>
+                            </button>
+                       </div>
+                       <div>
+                        <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                        <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                        <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                        <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                       </div>
+                       
+                    </li> 
+                    <li class="courses_card flex dropper_card">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                        <div class="courses_format">Оффлайн</div>
+                        <time class="courses_time">1 - 4 мая</time>
+                        <p class="courses_descr_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details">Подробнее</button>
+                    </li>
+                    <li class="courses_card card_massage_video">
+                        <div class="courses_video flex">
+                         <video controls muted class="video-container flex">
+                             <source src="./video.mp4" type="video/mp4" />
+                             <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                           </video>
+                           <!-- video switch -->
+                             <button class="switch-btn courses_video_btn flex">
+                                 <img class="video_click" src="img/courses_video.svg" alt="">
+                                  <p class="courses_video_span">Смотреть трейлер</p>
+                             </button>
+                        </div>
+                        <div>
+                         <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                         <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                         <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                         <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                        </div>
+                        
+                     </li> 
+                     <li class="courses_card card_biogel flex">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                        <div class="courses_format biogel_format">Мастер-класс</div>
+                        <time class="courses_time">2 - 5 августа</time>
+                        <p class="courses_descr_info biogel_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details biogel_details">Подробнее</button>
+                    </li>
+                    <li class="courses_card card_massage_video">
+                        <div class="courses_video flex">
+                         <video controls muted class="video-container flex">
+                             <source src="./video.mp4" type="video/mp4" />
+                             <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                           </video>
+                           <!-- video switch -->
+                             <button class="switch-btn courses_video_btn flex">
+                                 <img class="video_click" src="img/courses_video.svg" alt="">
+                                  <p class="courses_video_span">Смотреть трейлер</p>
+                             </button>
+                        </div>
+                        <div>
+                         <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                         <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                         <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                         <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                        </div>
+                        
+                     </li> 
+                    <li class="courses_card flex dropper_card">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                        <div class="courses_format mezotherapy_format">Онлайн</div>
+                        <time class="courses_time">15 - 20 мая</time>
+                        <p class="courses_descr_info mezotherapy_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                    </li> 
+                    <li class="courses_card flex dropper_card">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                        <div class="courses_format mezotherapy_format">Онлайн</div>
+                        <time class="courses_time">15 - 20 мая</time>
+                        <p class="courses_descr_info mezotherapy_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                    </li> 
+                    <li class="courses_card flex dropper_card">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                        <div class="courses_format">Оффлайн</div>
+                        <time class="courses_time">1 - 4 мая</time>
+                        <p class="courses_descr_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details">Подробнее</button>
+                    </li>
+                    <li class="courses_card card_massage_video">
+                        <div class="courses_video flex">
+                         <video controls muted class="video-container flex">
+                             <source src="./video.mp4" type="video/mp4" />
+                             <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                           </video>
+                           <!-- video switch -->
+                             <button class="switch-btn courses_video_btn flex">
+                                 <img class="video_click" src="img/courses_video.svg" alt="">
+                                  <p class="courses_video_span">Смотреть трейлер</p>
+                             </button>
+                        </div>
+                        <div>
+                         <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                         <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                         <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                         <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                        </div>
+                        
+                     </li>  
+            
+                    </ul>
+                    <ul class="courses_pag third_page flex">
+
+                        <li class="courses_card dropper_card flex">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                        <div class="courses_format">Оффлайн</div>
+                        <time class="courses_time">1 - 4 мая</time>
+                        <p class="courses_descr_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details">Подробнее</button>
+                    </li>
+                <li class="courses_card flex dropper_card">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                    <div class="courses_format mezotherapy_format">Онлайн</div>
+                    <time class="courses_time">15 - 20 мая</time>
+                    <p class="courses_descr_info mezotherapy_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                </li> 
+                <li class="courses_card card_biogel flex">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                    <div class="courses_format biogel_format">Мастер-класс</div>
+                    <time class="courses_time">2 - 5 августа</time>
+                    <p class="courses_descr_info biogel_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details biogel_details">Подробнее</button>
+                </li>
+                <li class="courses_card card_massage_video">
+                   <div class="courses_video flex">
+                    <video controls muted class="video-container flex">
+                        <source src="./video.mp4" type="video/mp4" />
+                        <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                      </video>
+                      <!-- video switch -->
+                        <button class="switch-btn courses_video_btn flex">
+                            <img class="video_click" src="img/courses_video.svg" alt="">
+                             <p class="courses_video_span">Смотреть трейлер</p>
+                        </button>
+                   </div>
+                   <div>
+                    <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                    <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                    <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                    <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                   </div>
+                   
+                </li> 
+                <li class="courses_card flex dropper_card">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                    <div class="courses_format">Оффлайн</div>
+                    <time class="courses_time">1 - 4 мая</time>
+                    <p class="courses_descr_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details">Подробнее</button>
+                </li>
+                <li class="courses_card card_massage_video">
+                    <div class="courses_video flex">
+                     <video controls muted class="video-container flex">
+                         <source src="./video.mp4" type="video/mp4" />
+                         <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                       </video>
+                       <!-- video switch -->
+                         <button class="switch-btn courses_video_btn flex">
+                             <img class="video_click" src="img/courses_video.svg" alt="">
+                              <p class="courses_video_span">Смотреть трейлер</p>
+                         </button>
+                    </div>
+                    <div>
+                     <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                     <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                     <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                     <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                    </div>
+                    
+                 </li> 
+                 <li class="courses_card card_biogel flex">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                    <div class="courses_format biogel_format">Мастер-класс</div>
+                    <time class="courses_time">2 - 5 августа</time>
+                    <p class="courses_descr_info biogel_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details biogel_details">Подробнее</button>
+                </li>
+                <li class="courses_card card_massage_video">
+                    <div class="courses_video flex">
+                     <video controls muted class="video-container flex">
+                         <source src="./video.mp4" type="video/mp4" />
+                         <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                       </video>
+                       <!-- video switch -->
+                         <button class="switch-btn courses_video_btn flex">
+                             <img class="video_click" src="img/courses_video.svg" alt="">
+                              <p class="courses_video_span">Смотреть трейлер</p>
+                         </button>
+                    </div>
+                    <div>
+                     <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                     <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                     <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                     <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                    </div>
+                    
+                 </li> 
+                <li class="courses_card flex dropper_card">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                    <div class="courses_format mezotherapy_format">Онлайн</div>
+                    <time class="courses_time">15 - 20 мая</time>
+                    <p class="courses_descr_info mezotherapy_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                </li> 
+                <li class="courses_card flex dropper_card">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                    <div class="courses_format mezotherapy_format">Онлайн</div>
+                    <time class="courses_time">15 - 20 мая</time>
+                    <p class="courses_descr_info mezotherapy_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                </li> 
+                <li class="courses_card flex dropper_card">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                    <div class="courses_format">Оффлайн</div>
+                    <time class="courses_time">1 - 4 мая</time>
+                    <p class="courses_descr_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details">Подробнее</button>
+                </li>
+                <li class="courses_card card_massage_video">
+                    <div class="courses_video flex">
+                     <video controls muted class="video-container flex">
+                         <source src="./video.mp4" type="video/mp4" />
+                         <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                       </video>
+                       <!-- video switch -->
+                         <button class="switch-btn courses_video_btn flex">
+                             <img class="video_click" src="img/courses_video.svg" alt="">
+                              <p class="courses_video_span">Смотреть трейлер</p>
+                         </button>
+                    </div>
+                    <div>
+                     <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                     <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                     <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                     <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                    </div>
+                    
+                 </li>  
+        
+                </ul>
+                <ul class="courses_pag fourth_page flex">
+
+                    <li class="courses_card dropper_card flex">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                    <div class="courses_format">Оффлайн</div>
+                    <time class="courses_time">1 - 4 мая</time>
+                    <p class="courses_descr_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details">Подробнее</button>
+                </li>
+            <li class="courses_card flex dropper_card">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                <div class="courses_format mezotherapy_format">Онлайн</div>
+                <time class="courses_time">15 - 20 мая</time>
+                <p class="courses_descr_info mezotherapy_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                <button class="btn courses_details mezotherapy_details">Подробнее</button>
+            </li> 
+            <li class="courses_card card_biogel flex">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                <div class="courses_format biogel_format">Мастер-класс</div>
+                <time class="courses_time">2 - 5 августа</time>
+                <p class="courses_descr_info biogel_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                <button class="btn courses_details biogel_details">Подробнее</button>
+            </li>
+            <li class="courses_card card_massage_video">
+               <div class="courses_video flex">
+                <video controls muted class="video-container flex">
+                    <source src="./video.mp4" type="video/mp4" />
+                    <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                  </video>
+                  <!-- video switch -->
+                    <button class="switch-btn courses_video_btn flex">
+                        <img class="video_click" src="img/courses_video.svg" alt="">
+                         <p class="courses_video_span">Смотреть трейлер</p>
+                    </button>
+               </div>
+               <div>
+                <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+               </div>
+               
+            </li> 
+            <li class="courses_card flex dropper_card">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                <div class="courses_format">Оффлайн</div>
+                <time class="courses_time">1 - 4 мая</time>
+                <p class="courses_descr_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details">Подробнее</button>
+            </li>
+            <li class="courses_card card_massage_video">
+                <div class="courses_video flex">
+                 <video controls muted class="video-container flex">
+                     <source src="./video.mp4" type="video/mp4" />
+                     <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                   </video>
+                   <!-- video switch -->
+                     <button class="switch-btn courses_video_btn flex">
+                         <img class="video_click" src="img/courses_video.svg" alt="">
+                          <p class="courses_video_span">Смотреть трейлер</p>
+                     </button>
+                </div>
+                <div>
+                 <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                 <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                 <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                 <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                </div>
+                
+             </li> 
+             <li class="courses_card card_biogel flex">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                <div class="courses_format biogel_format">Мастер-класс</div>
+                <time class="courses_time">2 - 5 августа</time>
+                <p class="courses_descr_info biogel_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                <button class="btn courses_details biogel_details">Подробнее</button>
+            </li>
+            <li class="courses_card card_massage_video">
+                <div class="courses_video flex">
+                 <video controls muted class="video-container flex">
+                     <source src="./video.mp4" type="video/mp4" />
+                     <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                   </video>
+                   <!-- video switch -->
+                     <button class="switch-btn courses_video_btn flex">
+                         <img class="video_click" src="img/courses_video.svg" alt="">
+                          <p class="courses_video_span">Смотреть трейлер</p>
+                     </button>
+                </div>
+                <div>
+                 <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                 <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                 <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                 <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                </div>
+                
+             </li> 
+            <li class="courses_card flex dropper_card">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                <div class="courses_format mezotherapy_format">Онлайн</div>
+                <time class="courses_time">15 - 20 мая</time>
+                <p class="courses_descr_info mezotherapy_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                <button class="btn courses_details mezotherapy_details">Подробнее</button>
+            </li> 
+            <li class="courses_card flex dropper_card">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                <div class="courses_format mezotherapy_format">Онлайн</div>
+                <time class="courses_time">15 - 20 мая</time>
+                <p class="courses_descr_info mezotherapy_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                <button class="btn courses_details mezotherapy_details">Подробнее</button>
+            </li> 
+            <li class="courses_card flex dropper_card">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                <div class="courses_format">Оффлайн</div>
+                <time class="courses_time">1 - 4 мая</time>
+                <p class="courses_descr_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details">Подробнее</button>
+            </li>
+            <li class="courses_card card_massage_video">
+                <div class="courses_video flex">
+                 <video controls muted class="video-container flex">
+                     <source src="./video.mp4" type="video/mp4" />
+                     <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                   </video>
+                   <!-- video switch -->
+                     <button class="switch-btn courses_video_btn flex">
+                         <img class="video_click" src="img/courses_video.svg" alt="">
+                          <p class="courses_video_span">Смотреть трейлер</p>
+                     </button>
+                </div>
+                <div>
+                 <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+                 <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+                 <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+                 <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+                </div>
+                
+             </li>  
+    
+            </ul>
+            <ul class="courses_pag fifht_page flex">
+
+                <li class="courses_card dropper_card flex">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+                <div class="courses_format">Оффлайн</div>
+                <time class="courses_time">1 - 4 мая</time>
+                <p class="courses_descr_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration fifht_btn_registr">Зарегистрироваться</button>
+                    <button class="btn courses_details">Подробнее</button>
+            </li>
+        <li class="courses_card flex dropper_card">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+            <div class="courses_format mezotherapy_format">Онлайн</div>
+            <time class="courses_time">15 - 20 мая</time>
+            <p class="courses_descr_info mezotherapy_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+        </li> 
+        <li class="courses_card card_biogel flex">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+            <div class="courses_format biogel_format">Мастер-класс</div>
+            <time class="courses_time">2 - 5 августа</time>
+            <p class="courses_descr_info biogel_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+            <button class="btn courses_details biogel_details">Подробнее</button>
+        </li>
+        <li class="courses_card card_massage_video">
+           <div class="courses_video flex">
+            <video controls muted class="video-container flex">
+                <source src="./video.mp4" type="video/mp4" />
+                <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+              </video>
+              <!-- video switch -->
+                <button class="switch-btn courses_video_btn flex">
+                    <img class="video_click" src="img/courses_video.svg" alt="">
+                     <p class="courses_video_span">Смотреть трейлер</p>
+                </button>
+           </div>
+           <div>
+            <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+            <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+            <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+            <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+           </div>
+           
+        </li> 
+        <li class="courses_card flex dropper_card">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+            <div class="courses_format">Оффлайн</div>
+            <time class="courses_time">1 - 4 мая</time>
+            <p class="courses_descr_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration">Зарегистрироваться</button>
+                <button class="btn courses_details">Подробнее</button>
+        </li>
+        <li class="courses_card card_massage_video">
+            <div class="courses_video flex">
+             <video controls muted class="video-container flex">
+                 <source src="./video.mp4" type="video/mp4" />
+                 <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+               </video>
+               <!-- video switch -->
+                 <button class="switch-btn courses_video_btn flex">
+                     <img class="video_click" src="img/courses_video.svg" alt="">
+                      <p class="courses_video_span">Смотреть трейлер</p>
+                 </button>
+            </div>
+            <div>
+             <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+             <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+             <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+             <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+            </div>
+            
+         </li> 
+         <li class="courses_card card_biogel flex">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+            <div class="courses_format biogel_format">Мастер-класс</div>
+            <time class="courses_time">2 - 5 августа</time>
+            <p class="courses_descr_info biogel_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+            <button class="btn courses_details biogel_details">Подробнее</button>
+        </li>
+        <li class="courses_card card_massage_video">
+            <div class="courses_video flex">
+             <video controls muted class="video-container flex">
+                 <source src="./video.mp4" type="video/mp4" />
+                 <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+               </video>
+               <!-- video switch -->
+                 <button class="switch-btn courses_video_btn flex">
+                     <img class="video_click" src="img/courses_video.svg" alt="">
+                      <p class="courses_video_span">Смотреть трейлер</p>
+                 </button>
+            </div>
+            <div>
+             <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+             <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+             <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+             <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+            </div>
+            
+         </li> 
+        <li class="courses_card flex dropper_card">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+            <div class="courses_format mezotherapy_format">Онлайн</div>
+            <time class="courses_time">15 - 20 мая</time>
+            <p class="courses_descr_info mezotherapy_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+        </li> 
+        <li class="courses_card flex dropper_card">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+            <div class="courses_format mezotherapy_format">Онлайн</div>
+            <time class="courses_time">15 - 20 мая</time>
+            <p class="courses_descr_info mezotherapy_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+        </li> 
+        <li class="courses_card flex dropper_card">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title ">Канюльные<br> техники</h4>
+            <div class="courses_format">Оффлайн</div>
+            <time class="courses_time">1 - 4 мая</time>
+            <p class="courses_descr_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration fifht_btn_registr">Зарегистрироваться</button>
+                <button class="btn courses_details">Подробнее</button>
+        </li>
+        <li class="courses_card card_massage_video">
+            <div class="courses_video flex">
+             <video controls muted class="video-container flex">
+                 <source src="./video.mp4" type="video/mp4" />
+                 <iframe class="embed-responsive-item" iframe width="360" height="242" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+               </video>
+               <!-- video switch -->
+                 <button class="switch-btn courses_video_btn flex">
+                     <img class="video_click" src="img/courses_video.svg" alt="">
+                      <p class="courses_video_span">Смотреть трейлер</p>
+                 </button>
+            </div>
+            <div>
+             <p class="card_massage_descr">Видео урок: <span class="descr_span">Массаж лица</span> </p>
+             <h5 class="courses_speaker">Спикер: Елена Белогурова</h5>
+             <button class="btn courses_registration mezotherapy_registration courses_regist">Купить</button>
+             <button class="btn courses_details mezotherapy_details courses_det">Подробнее</button>
+            </div>
+            
+         </li>  
+
+        </ul>
+
+        <ul class="courses_mc bio_gel flex">
+
+            <li class="courses_card card_biogel flex">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+                <div class="courses_format biogel_format">Мастер-класс</div>
+                <time class="courses_time">2 - 5 августа</time>
+                <p class="courses_descr_info biogel_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+                <button class="btn courses_details biogel_details">Подробнее</button>
+            </li>
+        <li class="courses_card card_biogel flex">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+            <div class="courses_format biogel_format">Мастер-класс</div>
+            <time class="courses_time">2 - 5 августа</time>
+            <p class="courses_descr_info biogel_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+            <button class="btn courses_details biogel_details">Подробнее</button>
+        </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li> 
+     <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li> 
+     <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li> 
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li>
+    <li class="courses_card card_biogel flex">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title biogel">Биогель - новое<br> в косметологии</h4>
+        <div class="courses_format biogel_format">Мастер-класс</div>
+        <time class="courses_time">2 - 5 августа</time>
+        <p class="courses_descr_info biogel_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration biogel_registration">Зарегистрироваться</button>
+        <button class="btn courses_details biogel_details">Подробнее</button>
+    </li> 
+    
+
+ </ul>
+
+ <ul class="courses_onln online flex">
+
+    <li class="courses_card flex dropper_card">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+        <div class="courses_format mezotherapy_format">Онлайн</div>
+        <time class="courses_time">15 - 20 мая</time>
+        <p class="courses_descr_info mezotherapy_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+        </li> 
+<li class="courses_card flex dropper_card">
+<p class="courses_small_title">Курс для медиков</p>
+<h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+<div class="courses_format mezotherapy_format">Онлайн</div>
+<time class="courses_time">15 - 20 мая</time>
+<p class="courses_descr_info mezotherapy_info">
+    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+</p>
+<p class="courses_free_places">Свободно 2 из 15 мест</p>
+<button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+<button class="btn courses_details mezotherapy_details">Подробнее</button>
+</li> 
+<li class="courses_card flex dropper_card">
+    <p class="courses_small_title">Курс для медиков</p>
+    <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+    <div class="courses_format mezotherapy_format">Онлайн</div>
+    <time class="courses_time">15 - 20 мая</time>
+    <p class="courses_descr_info mezotherapy_info">
+        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+    </p>
+    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+    <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+    <button class="btn courses_details mezotherapy_details">Подробнее</button>
+    </li> 
+    <li class="courses_card flex dropper_card">
+        <p class="courses_small_title">Курс для медиков</p>
+        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+        <div class="courses_format mezotherapy_format">Онлайн</div>
+        <time class="courses_time">15 - 20 мая</time>
+        <p class="courses_descr_info mezotherapy_info">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+        </p>
+        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+        </li> 
+        <li class="courses_card flex dropper_card">
+            <p class="courses_small_title">Курс для медиков</p>
+            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+            <div class="courses_format mezotherapy_format">Онлайн</div>
+            <time class="courses_time">15 - 20 мая</time>
+            <p class="courses_descr_info mezotherapy_info">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+            </p>
+            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+            </li> 
+            <li class="courses_card flex dropper_card">
+                <p class="courses_small_title">Курс для медиков</p>
+                <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                <div class="courses_format mezotherapy_format">Онлайн</div>
+                <time class="courses_time">15 - 20 мая</time>
+                <p class="courses_descr_info mezotherapy_info">
+                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                </p>
+                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                </li> 
+                <li class="courses_card flex dropper_card">
+                    <p class="courses_small_title">Курс для медиков</p>
+                    <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                    <div class="courses_format mezotherapy_format">Онлайн</div>
+                    <time class="courses_time">15 - 20 мая</time>
+                    <p class="courses_descr_info mezotherapy_info">
+                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                    </p>
+                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                    <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                    <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                    </li> 
+                    <li class="courses_card flex dropper_card">
+                        <p class="courses_small_title">Курс для медиков</p>
+                        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                        <div class="courses_format mezotherapy_format">Онлайн</div>
+                        <time class="courses_time">15 - 20 мая</time>
+                        <p class="courses_descr_info mezotherapy_info">
+                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                        </p>
+                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                        </li> 
+                        <li class="courses_card flex dropper_card">
+                            <p class="courses_small_title">Курс для медиков</p>
+                            <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                            <div class="courses_format mezotherapy_format">Онлайн</div>
+                            <time class="courses_time">15 - 20 мая</time>
+                            <p class="courses_descr_info mezotherapy_info">
+                                Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                            </p>
+                            <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                            <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                            <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                            </li>  
+                            <li class="courses_card flex dropper_card">
+                                <p class="courses_small_title">Курс для медиков</p>
+                                <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                                <div class="courses_format mezotherapy_format">Онлайн</div>
+                                <time class="courses_time">15 - 20 мая</time>
+                                <p class="courses_descr_info mezotherapy_info">
+                                    Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                                </p>
+                                <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                                <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                                </li> 
+                                <li class="courses_card flex dropper_card">
+                                    <p class="courses_small_title">Курс для медиков</p>
+                                    <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                                    <div class="courses_format mezotherapy_format">Онлайн</div>
+                                    <time class="courses_time">15 - 20 мая</time>
+                                    <p class="courses_descr_info mezotherapy_info">
+                                        Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                                    </p>
+                                    <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                    <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                                    <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                                    </li> 
+                                    <li class="courses_card flex dropper_card">
+                                        <p class="courses_small_title">Курс для медиков</p>
+                                        <h4 class="courses_great_title mezotherapy">Мезотерапия<br> и биоревителизация</h4>
+                                        <div class="courses_format mezotherapy_format">Онлайн</div>
+                                        <time class="courses_time">15 - 20 мая</time>
+                                        <p class="courses_descr_info mezotherapy_info">
+                                            Краткое описание<br>Что-то о курсе<br>Пару фактов<br>Краткое описание
+                                        </p>
+                                        <p class="courses_free_places">Свободно 2 из 15 мест</p>
+                                        <button class="btn courses_registration mezotherapy_registration">Зарегистрироваться</button>
+                                        <button class="btn courses_details mezotherapy_details">Подробнее</button>
+                                        </li> 
+
+</ul>
+
+                  
+
+
+
+                    </div>
+                 
+                    <nav class="navi" aria-label="...">
+                    <ul class="pagination flex">
+                      <li class="page-item page-item_back"><img src="img/courses_pag_previous.svg" alt=""></li>
+                      <li class="page-item page_first">1</li>
+                      <li class="page-item page_second">2</li>
+                      <li class="page-item page_third">3</li>
+                      <li class="page-item page_fourth">4</li>
+                      <li class="page-item page_fifth">5</li>
+                      <li class="page-item page-item_follow"><img src="img/courses_pag_next.svg" alt=""></li>
+                    </ul>
+                 
+                </nav>
+            </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer courses_footer">
+    <div class="footer_container">
+        <div class="footer_content flex">
+            <div class="footer_left">
+                <div class="map_container">
+                    <div class="contact_map_content">
+                      <div class="wrapper-9cd" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                          <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                          var setting = {"height":774,"width":756,"zoom":15,"queryString":"725 Грин-стрит, Сан-Франциско, Калифорния, США","place_id":"ChIJp26MjfGAhYARA6mjcPtTf10","satellite":false,"centerCoord":[37.79819849404069,-122.412720454245],"cid":"0x5d7f53fb70a3a903","lang":"ru","cityUrl":"/us/ca/san-francisco","cityAnchorText":"Карта [CITY1], Калифорния, США","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"929778"};
+                          var d = document;
+                          var s = d.createElement('script');
+                          s.src = 'https://1map.com/js/script-for-user.js?embed_id=929778';
+                          s.async = true;
+                          s.onload = function (e) {
+                            window.OneMap.initMap(setting)
+                          };
+                          var to = d.getElementsByTagName('script')[0];
+                          to.parentNode.insertBefore(s, to);
+                        })();</script><a href="https://1map.com/ru/map-embed">1 Map</a></div>
+                  </div>
+                    </div>
+            </div>
+            <div class="footer_right">
+               <div class="right_top flex">
+                <img src="img/footer_logo.svg" alt="" class="footer_logo">
+                <a class="valmari_footer_phone" href="tel:0800508622">0 (800) 508-622</a>
+               <address class="valmari_address wsnw">Харьков, Клочковская, д. 3</address>
+            </div>
+            <div class="right_center flex">
+                <ul class="right_center_left_list flex">
+                    <li class="right_center_left_item lsn">
+                        <a href="#" class="footer_links">
+                            Курсы обучения
+                        </a>
+                    <li>
+                    <li class="right_center_left_item lsn">
+                        <a href="#" class="footer_links">
+                            Вебинары
+                        </a>
+                    </li>
+                    <li class="right_center_left_item lsn">
+                        <a href="#" class="footer_links">
+                            Видео-уроки
+                        </a>
+                    </li>
+                    <li class="right_center_left_item lsn">
+                        <a href="#" class="footer_links">
+                            Прайс
+                        </a>
+                    </li>
+                    <li class="right_center_left_item lsn" >
+                        <a href="#" class="footer_links">
+                            Рассписание
+                        </a>
+                    </li>
+                </ul>
+                <ul class="right_center_right_list flex">
+                    <li class="right_center_right_item lsn">
+                        <a href="#" class="footer_links">
+                            Акции
+                        </a>
+                    </li>
+                    <li class="right_center_right_item lsn">
+                        <a href="#" class="footer_links">
+                            О нас
+                        </a>
+                    </li>
+                    <li class="right_center_right_item lsn">
+                        <a href="#" class="footer_links">
+                            Блог
+                        </a>
+                    </li>
+                    <li class="right_center_right_item lsn">
+                        <a href="#" class="footer_links">
+                            Магазин
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_bottom flex">
+                <ul class="footer_social flex">
+                    <li class="footer_social_item lsn">
+                        <a href="#" class="footer_social_link footer_facebook"></a>
+                    </li>
+                    <li class="footer_social_item lsn">
+                        <a href="#" class="footer_social_link footer_insta"></a>
+                    </li>
+                </ul>
+                <a href="#" class="footer_policy">Политика конфиденциальности</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="js/script.js">
+</script>
+</body>
+</html>
